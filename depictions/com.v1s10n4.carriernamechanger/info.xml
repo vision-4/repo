@@ -1,0 +1,21 @@
+<package>
+	<id>com.v1s10n4.carriernamechanger</id>
+	<name>CarrierNameChanger</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<mminiOS>11.0</mminiOS>
+			<maxiOS>12.1.2</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>This is a simple tweak which allow you to change the carrier name in statusbar.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
