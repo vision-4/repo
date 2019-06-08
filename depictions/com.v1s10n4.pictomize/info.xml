@@ -1,7 +1,7 @@
 <package>
 	<id>com.v1s10n4.pictomize</id>
 	<name>Pictomize</name>
-	<version>0.0.1</version>
+	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
 			<mminiOS>11.0</mminiOS>
@@ -9,13 +9,67 @@
 			<otherVersions>unconfirmed</otherVersions>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<packge>com.creaturesurvive.libcscolorpicker</packge>
+	</dependencies>
+	<shortDescription>Customize all your homescreen icons.</shortDescription>
 	<descriptionlist>
-		<description>Customize all your homescreen icons. (actually in beta, only rounded icons is supported).</description>
+		<description><![CDATA[
+			<div class="markdown-body">
+				<h1>Pictomize (v1.0.0)</h1>
+				<h2>Homescreen icons:</h2>
+				<ul>
+				<li>Border radius</li>
+				<li>Border width</li>
+				<li>Border color</li>
+				</ul>
+				<h2>Homescreen folder icons:</h2>
+				<ul>
+				<li>Border radius</li>
+				<li>Border width</li>
+				<li>Border color</li>
+				</ul>
+				<h2>Others</h2>
+				<ul>
+				<li>Settings</li>
+				<li>Credit links</li>
+				</ul>
+				<h3>Made by: <em>v1s10n_4</em></h3>
+			</div>
+		]]></description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description>Homescreen</description>
+			<image>homescreen.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>Folder</description>
+			<image>folder.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>Settings</description>
+			<image>settings.jpg</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial release</change>
 	</changelog>
-	<links></links>
+	<links>
+		<link>
+			<name>Twitter</name>
+			<url>https://twitter.com/V1s10n_4</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+		<link>
+			<name>Source code</name>
+			<url>https://github.com/vision-4/Pictomize</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>
+		<link>
+			<name>Support</name>
+			<url>https://www.paypal.com/cgi-bin/webscr?cmd%3D_s-xclick%26hosted_button_id%3DTYH44YTNFW4M6%26source%3Durl</url>
+			<iconclass>fa fa-paypal</iconclass>
+		</link>
+	</links>
 </package>
