@@ -5,18 +5,19 @@
 	<compatibility>
 		<firmware>
 			<mminiOS>11.0</mminiOS>
-			<maxiOS>12.1.2</maxiOS>
+			<maxiOS>13.x.x</maxiOS>
 			<otherVersions>unconfirmed</otherVersions>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<packge>com.creaturesurvive.libcscolorpicker</packge>
+		<packge>com.creaturecoding.libcspreferences</packge>
 	</dependencies>
 	<shortDescription>Customize all your homescreen icons.</shortDescription>
 	<descriptionlist>
-		<description><![CDATA[
+        <description><![CDATA[
 			<div class="markdown-body">
-				<h1>Pictomize (v1.0.0)</h1>
+				<h1>Pictomize (v1.1.0)</h1>
 				<h2>Homescreen icons:</h2>
 				<ul>
 				<li>Border radius</li>
@@ -29,6 +30,13 @@
 				<li>Border width</li>
 				<li>Border color</li>
 				</ul>
+				<h2>Homescreen labels:</h2>
+				<ul>
+				<li>Zalgo label</li>
+				<li>custom label</li>
+				<li>label color</li>
+				<li>label size</li>
+				</ul>
 				<h2>Others</h2>
 				<ul>
 				<li>Settings</li>
@@ -40,17 +48,20 @@
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>Homescreen</description>
-			<image>homescreen.jpg</image>
+			<image>homescreen_1.png</image>
+		</screenshot>
+        <screenshot>
+			<image>homescreen_2.png</image>
+        </screenshot>
+		<screenshot>
+			<image>folder.png</image>
 		</screenshot>
 		<screenshot>
-			<description>Folder</description>
-			<image>folder.jpg</image>
+			<image>preferences_top.png</image>
 		</screenshot>
-		<screenshot>
-			<description>Settings</description>
-			<image>settings.jpg</image>
-		</screenshot>
+        <screenshot>
+            <image>preferences_bottom.png</image>
+        </screenshot>
 	</screenshots>
 	<changelog>
 		<change>Initial release</change>
